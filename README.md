@@ -25,7 +25,11 @@ chmod +x install_reqs.sh
 ```
 
 #### Instrumentation Pass
-In `instrumentation_pass`, run `make` to get the instrumentation pass. It will contain passes for 3 different architechture - arm64, arm32 and x86-64. We have used 2 different testbeds, fischertechnik is `arm32`, and miniwater testbed is `arm64`, so, we have used those respectively. In your case, you might not have the testbed available, so, we have provided the LOGS for you.
+```
+cd instrumentation_pass
+make # will contain passes for 3 different archs - arm32, arm64 and x86-64
+```
+ Fischertechnik is `arm32`, and miniwater testbed is `arm64`, so, we cross-compiled accordingly. In your case, you might not have the testbed available, so, we have provided the LOGS for you.
 
 ##### Fischertechnik-testbed source code compilation
 ##### Txt Tool Chain
@@ -43,9 +47,18 @@ make
 For cross-compilation, I have used `--target=arm-linux-gnueabihf` for `arm32` bit. All the other necessary libraies and flags are defined in the Makefile. 
 
 #### LOGS
-All the logs/traces are present in the Data folder. Using some of those logs, we have created the graphs. I have used `graphviz` to generate those graphs. But `graphviz` can't generate graphs containing more than 6000 nodes. I have divided the whole graph in sub-graphs. Each sub-graphs contains 5k nodes. 
-The `hbw-graph` folder has graphs from `hbw` and `vgr-graph` contains all sub-graphs of `vgr`. The `backtracking_graphs` folder contains combined sub-graphs of those two.
+```
+cd Data # contains logs/traces
+cd Graphs # contains complex graphs
+ls Graphs/hbw-graph # graphs from hbw 
+ls Graphs/vgr-graph # sub-graphs of vgr. 
+ls Graphs/backtracking_graphs #contains combined sub-graphs of those two.
+```
+`graphviz` can't generate graphs containing more than 6000 nodes. So,I have divided the whole graph into sub-graphs. 
+Each sub-graphs contains 5k nodes. 
 
 
 #### Graph Generation
-The 
+Please follow the instructions present in `3-steps/step_1_2/` and `3-steps/step_3` for noise reduction.
+The `graph_generation/generate_graph.py` will use updated traces from `3-steps/step_3/output/<updated trace>` after the reduction step.  
+
