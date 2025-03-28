@@ -1,0 +1,103 @@
+digraph {
+	"Function- _ZNSt11unique_lockISt5mutexE6unlockEv"
+	"Function- _ZNSt11unique_lockISt5mutexED2Ev"
+	"Function- _ZNSt11unique_lockISt5mutexED2Ev" -> "Function- _ZNSt11unique_lockISt5mutexE6unlockEv" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev" -> "Function- _ZNSt11unique_lockISt5mutexED2Ev" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EE7_M_swapERS2_"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EE7_M_swapERS2_" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev" [dir=back]
+	"Function- _ZSt4moveIRPN6spdlog12async_loggerEEONSt16remove_referenceIT_E4typeEOS5_"
+	"Function- _ZSt4moveIRPN6spdlog12async_loggerEEONSt16remove_referenceIT_E4typeEOS5_" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EE7_M_swapERS2_" [dir=back]
+	"Function- _ZSt4moveIRPN6spdlog12async_loggerEEONSt16remove_referenceIT_E4typeEOS5_"
+	"Function- _ZSt4moveIRPN6spdlog12async_loggerEEONSt16remove_referenceIT_E4typeEOS5_" -> "Function- _ZSt4moveIRPN6spdlog12async_loggerEEONSt16remove_referenceIT_E4typeEOS5_" [dir=back]
+	"Function- _ZSt4moveIRPN6spdlog12async_loggerEEONSt16remove_referenceIT_E4typeEOS5_"
+	"Function- _ZSt4moveIRPN6spdlog12async_loggerEEONSt16remove_referenceIT_E4typeEOS5_" -> "Function- _ZSt4moveIRPN6spdlog12async_loggerEEONSt16remove_referenceIT_E4typeEOS5_" [dir=back]
+	"Function- _ZSt4swapIPN6spdlog12async_loggerEENSt9enable_ifIXsr6__and_ISt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS6_ESt18is_move_assignableIS6_EEE5valueEvE4typeERS6_SF_"
+	"Function- _ZSt4swapIPN6spdlog12async_loggerEENSt9enable_ifIXsr6__and_ISt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS6_ESt18is_move_assignableIS6_EEE5valueEvE4typeERS6_SF_" -> "Function- _ZSt4moveIRPN6spdlog12async_loggerEEONSt16remove_referenceIT_E4typeEOS5_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EE4swapERS4_"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EE4swapERS4_" -> "Function- _ZSt4swapIPN6spdlog12async_loggerEENSt9enable_ifIXsr6__and_ISt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS6_ESt18is_move_assignableIS6_EEE5valueEvE4typeERS6_SF_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EE7_M_swapERS2_"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EE7_M_swapERS2_" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EE4swapERS4_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EE7_M_swapERS2_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2EOS4_"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2EOS4_" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZSt4moveIRSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEEONSt16remove_referenceIT_E4typeEOS8_"
+	"Function- _ZSt4moveIRSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEEONSt16remove_referenceIT_E4typeEOS8_" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2EOS4_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEaSEOS4_"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEaSEOS4_" -> "Function- _ZSt4moveIRSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEEONSt16remove_referenceIT_E4typeEOS8_" [dir=back]
+	"Function- _ZSt4moveIRSt10shared_ptrIN6spdlog12async_loggerEEEONSt16remove_referenceIT_E4typeEOS6_"
+	"Function- _ZSt4moveIRSt10shared_ptrIN6spdlog12async_loggerEEEONSt16remove_referenceIT_E4typeEOS6_" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEaSEOS4_" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEaSEOS2_"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEaSEOS2_" -> "Function- _ZSt4moveIRSt10shared_ptrIN6spdlog12async_loggerEEEONSt16remove_referenceIT_E4typeEOS6_" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEaSEOS2_" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE6resizeEj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE6resizeEj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" [dir=back]
+	"Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_"
+	"Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE6resizeEj" [dir=back]
+	"Function- _ZSt13__copy_move_aILb0EPcS0_ET1_T0_S2_S1_"
+	"Function- _ZSt13__copy_move_aILb0EPcS0_ET1_T0_S2_S1_" -> "Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_" [dir=back]
+	"Function- _ZSt12__niter_baseIPcET_S1_"
+	"Function- _ZSt12__niter_baseIPcET_S1_" -> "Function- _ZSt13__copy_move_aILb0EPcS0_ET1_T0_S2_S1_" [dir=back]
+	"Function- _ZSt12__niter_baseIPcET_S1_"
+	"Function- _ZSt12__niter_baseIPcET_S1_" -> "Function- _ZSt12__niter_baseIPcET_S1_" [dir=back]
+	"Function- _ZSt12__niter_baseIPcET_S1_"
+	"Function- _ZSt12__niter_baseIPcET_S1_" -> "Function- _ZSt12__niter_baseIPcET_S1_" [dir=back]
+	"Function- _ZSt14__copy_move_a2ILb0EPcS0_ET1_T0_S2_S1_"
+	"Function- _ZSt14__copy_move_a2ILb0EPcS0_ET1_T0_S2_S1_" -> "Function- _ZSt12__niter_baseIPcET_S1_" [dir=back]
+	"Function- _ZSt12__miter_baseIPcET_S1_"
+	"Function- _ZSt12__miter_baseIPcET_S1_" -> "Function- _ZSt14__copy_move_a2ILb0EPcS0_ET1_T0_S2_S1_" [dir=back]
+	"Function- _ZSt12__miter_baseIPcET_S1_"
+	"Function- _ZSt12__miter_baseIPcET_S1_" -> "Function- _ZSt12__miter_baseIPcET_S1_" [dir=back]
+	"Function- _ZSt4copyIPcS0_ET0_T_S2_S1_"
+	"Function- _ZSt4copyIPcS0_ET0_T_S2_S1_" -> "Function- _ZSt12__miter_baseIPcET_S1_" [dir=back]
+	"Function- _ZNSt20__uninitialized_copyILb1EE13__uninit_copyIPcS2_EET0_T_S4_S3_"
+	"Function- _ZNSt20__uninitialized_copyILb1EE13__uninit_copyIPcS2_EET0_T_S4_S3_" -> "Function- _ZSt4copyIPcS0_ET0_T_S2_S1_" [dir=back]
+	"Function- _ZSt18uninitialized_copyIPcS0_ET0_T_S2_S1_"
+	"Function- _ZSt18uninitialized_copyIPcS0_ET0_T_S2_S1_" -> "Function- _ZNSt20__uninitialized_copyILb1EE13__uninit_copyIPcS2_EET0_T_S4_S3_" [dir=back]
+	"Function- _ZN3fmt2v58internal12make_checkedIcEEPT_S4_j"
+	"Function- _ZN3fmt2v58internal12make_checkedIcEEPT_S4_j" -> "Function- _ZSt18uninitialized_copyIPcS0_ET0_T_S2_S1_" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZN3fmt2v58internal12make_checkedIcEEPT_S4_j" [dir=back]
+	"Function- _ZNK3fmt2v58internal12basic_bufferIcE8capacityEv"
+	"Function- _ZNK3fmt2v58internal12basic_bufferIcE8capacityEv" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv"
+	"Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv" -> "Function- _ZNK3fmt2v58internal12basic_bufferIcE8capacityEv" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE4dataEv"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE4dataEv" -> "Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv" [dir=back]
+	"Function- _ZSt4moveIRSaIcEEONSt16remove_referenceIT_E4typeEOS3_"
+	"Function- _ZSt4moveIRSaIcEEONSt16remove_referenceIT_E4typeEOS3_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE4dataEv" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEE4moveERS3_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEE4moveERS3_" -> "Function- _ZSt4moveIRSaIcEEONSt16remove_referenceIT_E4typeEOS3_" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE4dataEv"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE4dataEv" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEE4moveERS3_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEE10deallocateEv"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEE10deallocateEv" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE4dataEv" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEaSEOS3_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEaSEOS3_" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEE10deallocateEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgaSEOS1_"
+	"Function- _ZN6spdlog7details9async_msgaSEOS1_" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEaSEOS3_" [dir=back]
+	"Function- _ZNSt6vectorIN6spdlog7details9async_msgESaIS2_EEixEj"
+	"Function- _ZNSt6vectorIN6spdlog7details9async_msgESaIS2_EEixEj" -> "Function- _ZN6spdlog7details9async_msgaSEOS1_" [dir=back]
+	"Function- _ZSt4moveIRN6spdlog7details9async_msgEEONSt16remove_referenceIT_E4typeEOS5_"
+	"Function- _ZSt4moveIRN6spdlog7details9async_msgEEONSt16remove_referenceIT_E4typeEOS5_" -> "Function- _ZNSt6vectorIN6spdlog7details9async_msgESaIS2_EEixEj" [dir=back]
+	"Function- _ZN6spdlog7details10circular_qINS0_9async_msgEE9push_backEOS2_"
+	"Function- _ZN6spdlog7details10circular_qINS0_9async_msgEE9push_backEOS2_" -> "Function- _ZSt4moveIRN6spdlog7details9async_msgEEONSt16remove_referenceIT_E4typeEOS5_" [dir=back]
+	"Function- _ZSt4moveIRN6spdlog7details9async_msgEEONSt16remove_referenceIT_E4typeEOS5_"
+	"Function- _ZSt4moveIRN6spdlog7details9async_msgEEONSt16remove_referenceIT_E4typeEOS5_" -> "Function- _ZN6spdlog7details10circular_qINS0_9async_msgEE9push_backEOS2_" [dir=back]
+	"Function- _ZN6spdlog7details10circular_qINS0_9async_msgEE4fullEv"
+	"Function- _ZN6spdlog7details10circular_qINS0_9async_msgEE4fullEv" -> "Function- _ZSt4moveIRN6spdlog7details9async_msgEEONSt16remove_referenceIT_E4typeEOS5_" [dir=back]
+	"Function- _ZZN6spdlog7details19mpmc_blocking_queueINS0_9async_msgEE7enqueueEOS2_ENKUlvE_clEv"
+	"Function- _ZZN6spdlog7details19mpmc_blocking_queueINS0_9async_msgEE7enqueueEOS2_ENKUlvE_clEv" -> "Function- _ZN6spdlog7details10circular_qINS0_9async_msgEE4fullEv" [dir=back]
+	"Function- _ZNSt18condition_variable4waitIZN6spdlog7details19mpmc_blocking_queueINS2_9async_msgEE7enqueueEOS4_EUlvE_EEvRSt11unique_lockISt5mutexET_"
+	"Function- _ZNSt18condition_variable4waitIZN6spdlog7details19mpmc_blocking_queueINS2_9async_msgEE7enqueueEOS4_EUlvE_EEvRSt11unique_lockISt5mutexET_" -> "Function- _ZZN6spdlog7details19mpmc_blocking_queueINS0_9async_msgEE7enqueueEOS2_ENKUlvE_clEv" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZNSt18condition_variable4waitIZN6spdlog7details19mpmc_blocking_queueINS2_9async_msgEE7enqueueEOS4_EUlvE_EEvRSt11unique_lockISt5mutexET_" [dir=back]
+	"Function- _ZL20__gthread_mutex_lockP15pthread_mutex_t"
+	"Function- _ZL20__gthread_mutex_lockP15pthread_mutex_t" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt5mutex4lockEv"
+	"Function- _ZNSt5mutex4lockEv" -> "Function- _ZL20__gthread_mutex_lockP15pthread_mutex_t" [dir=back]
+}

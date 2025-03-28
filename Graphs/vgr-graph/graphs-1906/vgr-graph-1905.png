@@ -1,0 +1,103 @@
+digraph {
+	"Function- _ZN2ft15gettimestampstrExPc"
+	"  type- 1Function- _ZNSolsEPFRSoS_E"
+	"  type- 1Function- _ZNSolsEPFRSoS_E" -> "Function- _ZN2ft15gettimestampstrExPc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "  type- 1Function- _ZNSolsEPFRSoS_E" [dir=back]
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"  state- 0Function- _ZNSolsEPFRSoS_E"
+	"  state- 0Function- _ZNSolsEPFRSoS_E" -> "Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "  state- 0Function- _ZNSolsEPFRSoS_E" [dir=back]
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"043470a2186580Function- _ZNSolsEPFRSoS_E"
+	"043470a2186580Function- _ZNSolsEPFRSoS_E" -> "Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv"
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv" -> "043470a2186580Function- _ZNSolsEPFRSoS_E" [dir=back]
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv"
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv" -> "Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv" [dir=back]
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4dataEv"
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4dataEv" -> "Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv" [dir=back]
+	"  tag_uid- Function- _ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE"
+	"  tag_uid- Function- _ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE" -> "Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4dataEv" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "  tag_uid- Function- _ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE" [dir=back]
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"NFC Data LastFunction- _ZNSolsEPFRSoS_E"
+	"NFC Data LastFunction- _ZNSolsEPFRSoS_E" -> "Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "NFC Data LastFunction- _ZNSolsEPFRSoS_E" [dir=back]
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"Function- _ZN2ft12TxtNfcDevice12printNfcDataEv"
+	"Function- _ZN2ft12TxtNfcDevice12printNfcDataEv" -> "Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "Function- _ZN2ft12TxtNfcDevice12printNfcDataEv" [dir=back]
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv"
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEPKc"
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEPKc" -> "Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv" [dir=back]
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEPKc"
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEPKc" -> "Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEPKc" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEPKc" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZN2ft12TxtWorkpieceC2Ev"
+	"Function- _ZN2ft12TxtWorkpieceC2Ev" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZN2ft10TxtNfcDataC2Ev"
+	"Function- _ZN2ft10TxtNfcDataC2Ev" -> "Function- _ZN2ft12TxtWorkpieceC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN2ft10TxtNfcDataC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED2Ev"
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED2Ev" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN2ft12TxtWorkpieceD2Ev"
+	"Function- _ZN2ft12TxtWorkpieceD2Ev" -> "Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED2Ev" [dir=back]
+	"Function- _ZN2ft10TxtNfcDataD2Ev"
+	"Function- _ZN2ft10TxtNfcDataD2Ev" -> "Function- _ZN2ft12TxtWorkpieceD2Ev" [dir=back]
+	"Function- _ZN2ft10TxtNfcDataD0Ev"
+	"Function- _ZN2ft10TxtNfcDataD0Ev" -> "Function- _ZN2ft10TxtNfcDataD2Ev" [dir=back]
+	"Function- _ZN2ft12TxtNfcDevice12printRawDataEPh"
+	"Function- _ZN2ft12TxtNfcDevice12printRawDataEPh" -> "Function- _ZN2ft10TxtNfcDataD0Ev" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft12TxtNfcDevice12printRawDataEPh" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+}

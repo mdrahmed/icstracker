@@ -1,0 +1,103 @@
+digraph {
+	"1970-01-01T00-00-00.000ZFunction- _ZNSolsEPFRSoS_E"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "1970-01-01T00-00-00.000ZFunction- _ZNSolsEPFRSoS_E" [dir=back]
+	"]- Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"]- Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "]- Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"2Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"2Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"  ts[Function- _ZNSolsEj"
+	"  ts[Function- _ZNSolsEj" -> "2Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "  ts[Function- _ZNSolsEj" [dir=back]
+	"-Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"-Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c"
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c" -> "-Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZN2ft15gettimestampstrExPc"
+	"Function- _ZN2ft15gettimestampstrExPc" -> "Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c" [dir=back]
+	"1970-01-01T00-00-00.000ZFunction- _ZNSolsEPFRSoS_E"
+	"1970-01-01T00-00-00.000ZFunction- _ZNSolsEPFRSoS_E" -> "Function- _ZN2ft15gettimestampstrExPc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "1970-01-01T00-00-00.000ZFunction- _ZNSolsEPFRSoS_E" [dir=back]
+	"]- Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"]- Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "]- Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"1Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"1Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"  ts[Function- _ZNSolsEj"
+	"  ts[Function- _ZNSolsEj" -> "1Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "  ts[Function- _ZNSolsEj" [dir=back]
+	"-Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"-Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c"
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c" -> "-Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZN2ft15gettimestampstrExPc"
+	"Function- _ZN2ft15gettimestampstrExPc" -> "Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c" [dir=back]
+	"1970-01-01T00-00-00.000ZFunction- _ZNSolsEPFRSoS_E"
+	"1970-01-01T00-00-00.000ZFunction- _ZNSolsEPFRSoS_E" -> "Function- _ZN2ft15gettimestampstrExPc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "1970-01-01T00-00-00.000ZFunction- _ZNSolsEPFRSoS_E" [dir=back]
+	"]- Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"]- Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "]- Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"0Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"0Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"  ts[Function- _ZNSolsEj"
+	"  ts[Function- _ZNSolsEj" -> "0Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "  ts[Function- _ZNSolsEj" [dir=back]
+	"-Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"-Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c"
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c" -> "-Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZN2ft15gettimestampstrExPc"
+	"Function- _ZN2ft15gettimestampstrExPc" -> "Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c" [dir=back]
+	"  type- 0Function- _ZNSolsEPFRSoS_E"
+	"  type- 0Function- _ZNSolsEPFRSoS_E" -> "Function- _ZN2ft15gettimestampstrExPc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "  type- 0Function- _ZNSolsEPFRSoS_E" [dir=back]
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"  state- 0Function- _ZNSolsEPFRSoS_E"
+	"  state- 0Function- _ZNSolsEPFRSoS_E" -> "Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "  state- 0Function- _ZNSolsEPFRSoS_E" [dir=back]
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"043470a2186580Function- _ZNSolsEPFRSoS_E"
+	"043470a2186580Function- _ZNSolsEPFRSoS_E" -> "Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv"
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv" -> "043470a2186580Function- _ZNSolsEPFRSoS_E" [dir=back]
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv"
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv" -> "Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv" [dir=back]
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4dataEv"
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4dataEv" -> "Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv" [dir=back]
+	"  tag_uid- Function- _ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE"
+	"  tag_uid- Function- _ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE" -> "Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4dataEv" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "  tag_uid- Function- _ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE" [dir=back]
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"NFC Data LastFunction- _ZNSolsEPFRSoS_E"
+	"NFC Data LastFunction- _ZNSolsEPFRSoS_E" -> "Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "NFC Data LastFunction- _ZNSolsEPFRSoS_E" [dir=back]
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"Function- _ZN2ft12TxtNfcDevice12printNfcDataEv"
+	"Function- _ZN2ft12TxtNfcDevice12printNfcDataEv" -> "Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "Function- _ZN2ft12TxtNfcDevice12printNfcDataEv" [dir=back]
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv"
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEPKc"
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEPKc" -> "Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv" [dir=back]
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEPKc"
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEPKc" -> "Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEPKc" [dir=back]
+}

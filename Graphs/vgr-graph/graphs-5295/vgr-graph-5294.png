@@ -1,0 +1,103 @@
+digraph {
+	"Function- _ZN9__gnu_cxx13new_allocatorISt23_Sp_counted_ptr_inplaceIN6spdlog6loggerESaIS3_ELNS_12_Lock_policyE2EEED2Ev"
+	"Function- _ZNSt15__allocated_ptrISaISt23_Sp_counted_ptr_inplaceIN6spdlog6loggerESaIS2_ELN9__gnu_cxx12_Lock_policyE2EEEED2Ev"
+	"Function- _ZNSt15__allocated_ptrISaISt23_Sp_counted_ptr_inplaceIN6spdlog6loggerESaIS2_ELN9__gnu_cxx12_Lock_policyE2EEEED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorISt23_Sp_counted_ptr_inplaceIN6spdlog6loggerESaIS3_ELNS_12_Lock_policyE2EEED2Ev" [dir=back]
+	"Function- _ZNSt15__allocated_ptrISaISt23_Sp_counted_ptr_inplaceIN6spdlog6loggerESaIS2_ELN9__gnu_cxx12_Lock_policyE2EEEEaSEDn"
+	"Function- _ZNSt15__allocated_ptrISaISt23_Sp_counted_ptr_inplaceIN6spdlog6loggerESaIS2_ELN9__gnu_cxx12_Lock_policyE2EEEEaSEDn" -> "Function- _ZNSt15__allocated_ptrISaISt23_Sp_counted_ptr_inplaceIN6spdlog6loggerESaIS2_ELN9__gnu_cxx12_Lock_policyE2EEEED2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIN6spdlog6loggerEED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIN6spdlog6loggerEED2Ev" -> "Function- _ZNSt15__allocated_ptrISaISt23_Sp_counted_ptr_inplaceIN6spdlog6loggerESaIS2_ELN9__gnu_cxx12_Lock_policyE2EEEEaSEDn" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIN6spdlog6loggerEED2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED2Ev"
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED2Ev" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev" -> "Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED2Ev" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EED2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EED2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EED2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED2Ev"
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED2Ev" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii"
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" -> "Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED2Ev" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" [dir=back]
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii"
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv"
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" -> "Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev" -> "Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EED2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EED2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EED2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED2Ev"
+	"Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED2Ev" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZNSt13__atomic_baseIjEC2Ej"
+	"Function- _ZNSt13__atomic_baseIjEC2Ej" -> "Function- _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED2Ev" [dir=back]
+	"Function- _ZNSt6atomicIjEC2Ej"
+	"Function- _ZNSt6atomicIjEC2Ej" -> "Function- _ZNSt13__atomic_baseIjEC2Ej" [dir=back]
+	"Function- _ZNSt13__atomic_baseIlEC2El"
+	"Function- _ZNSt13__atomic_baseIlEC2El" -> "Function- _ZNSt6atomicIjEC2Ej" [dir=back]
+	"Function- _ZNSt6atomicIlEC2El"
+	"Function- _ZNSt6atomicIlEC2El" -> "Function- _ZNSt13__atomic_baseIlEC2El" [dir=back]
+	"Function- _ZSt4moveIRN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EEONSt16remove_referenceIT_E4typeEOSE_"
+	"Function- _ZSt4moveIRN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EEONSt16remove_referenceIT_E4typeEOSE_" -> "Function- _ZNSt6atomicIlEC2El" [dir=back]
+	"Function- _ZNSt9_Any_data9_M_accessEv"
+	"Function- _ZNSt9_Any_data9_M_accessEv" -> "Function- _ZSt4moveIRN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EEONSt16remove_referenceIT_E4typeEOSE_" [dir=back]
+	"Function- _ZNSt14_Function_base13_Base_managerIN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EE15_M_init_functorERSt9_Any_dataOSC_St17integral_constantIbLb1EE"
+	"Function- _ZNSt14_Function_base13_Base_managerIN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EE15_M_init_functorERSt9_Any_dataOSC_St17integral_constantIbLb1EE" -> "Function- _ZNSt9_Any_data9_M_accessEv" [dir=back]
+	"Function- _ZSt4moveIRN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EEONSt16remove_referenceIT_E4typeEOSE_"
+	"Function- _ZSt4moveIRN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EEONSt16remove_referenceIT_E4typeEOSE_" -> "Function- _ZNSt14_Function_base13_Base_managerIN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EE15_M_init_functorERSt9_Any_dataOSC_St17integral_constantIbLb1EE" [dir=back]
+	"Function- _ZNSt14_Function_base13_Base_managerIN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EE15_M_init_functorERSt9_Any_dataOSC_"
+	"Function- _ZNSt14_Function_base13_Base_managerIN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EE15_M_init_functorERSt9_Any_dataOSC_" -> "Function- _ZSt4moveIRN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EEONSt16remove_referenceIT_E4typeEOSE_" [dir=back]
+	"Function- _ZSt4moveIRN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EEONSt16remove_referenceIT_E4typeEOSE_"
+	"Function- _ZSt4moveIRN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EEONSt16remove_referenceIT_E4typeEOSE_" -> "Function- _ZNSt14_Function_base13_Base_managerIN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EE15_M_init_functorERSt9_Any_dataOSC_" [dir=back]
+	"Function- _ZNSt14_Function_base13_Base_managerIN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EE21_M_not_empty_functionISC_EEbRKT_"
+	"Function- _ZNSt14_Function_base13_Base_managerIN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EE21_M_not_empty_functionISC_EEbRKT_" -> "Function- _ZSt4moveIRN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EEONSt16remove_referenceIT_E4typeEOSE_" [dir=back]
+	"Function- _ZNSt14_Function_baseC2Ev"
+	"Function- _ZNSt14_Function_baseC2Ev" -> "Function- _ZNSt14_Function_base13_Base_managerIN6spdlog6logger12err_handler_MUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_EE21_M_not_empty_functionISC_EEbRKT_" [dir=back]
+	"Function- _ZNSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEC2IN6spdlog6logger12err_handler_MUlS7_E_EvvEET_"
+	"Function- _ZNSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEC2IN6spdlog6logger12err_handler_MUlS7_E_EvvEET_" -> "Function- _ZNSt14_Function_baseC2Ev" [dir=back]
+	"Function- _ZNSt13__atomic_baseIiEC2Ei"
+	"Function- _ZNSt13__atomic_baseIiEC2Ei" -> "Function- _ZNSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEC2IN6spdlog6logger12err_handler_MUlS7_E_EvvEET_" [dir=back]
+	"Function- _ZNSt6atomicIiEC2Ei"
+	"Function- _ZNSt6atomicIiEC2Ei" -> "Function- _ZNSt13__atomic_baseIiEC2Ei" [dir=back]
+	"Function- _ZNSt13__atomic_baseIiEC2Ei"
+	"Function- _ZNSt13__atomic_baseIiEC2Ei" -> "Function- _ZNSt6atomicIiEC2Ei" [dir=back]
+	"Function- _ZNSt6atomicIiEC2Ei"
+	"Function- _ZNSt6atomicIiEC2Ei" -> "Function- _ZNSt13__atomic_baseIiEC2Ei" [dir=back]
+	"Function- _ZN6spdlog6logger13default_levelEv"
+	"Function- _ZN6spdlog6logger13default_levelEv" -> "Function- _ZNSt6atomicIiEC2Ei" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorISt10shared_ptrIN6spdlog5sinks4sinkEEED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorISt10shared_ptrIN6spdlog5sinks4sinkEEED2Ev" -> "Function- _ZN6spdlog6logger13default_levelEv" [dir=back]
+	"Function- _ZN9__gnu_cxxL12__atomic_addEPVii"
+	"Function- _ZN9__gnu_cxxL12__atomic_addEPVii" -> "Function- _ZN9__gnu_cxx13new_allocatorISt10shared_ptrIN6spdlog5sinks4sinkEEED2Ev" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN9__gnu_cxxL12__atomic_addEPVii" [dir=back]
+	"Function- _ZN9__gnu_cxxL21__atomic_add_dispatchEPii"
+	"Function- _ZN9__gnu_cxxL21__atomic_add_dispatchEPii" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE15_M_add_ref_copyEv"
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE15_M_add_ref_copyEv" -> "Function- _ZN9__gnu_cxxL21__atomic_add_dispatchEPii" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2ERKS2_"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2ERKS2_" -> "Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE15_M_add_ref_copyEv" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EEC2ERKS5_"
+	"Function- _ZNSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EEC2ERKS5_" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2ERKS2_" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog5sinks4sinkEEC2ERKS3_"
+	"Function- _ZNSt10shared_ptrIN6spdlog5sinks4sinkEEC2ERKS3_" -> "Function- _ZNSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EEC2ERKS5_" [dir=back]
+	"Function- _ZSt7forwardIRKSt10shared_ptrIN6spdlog5sinks4sinkEEEOT_RNSt16remove_referenceIS7_E4typeE"
+	"Function- _ZSt7forwardIRKSt10shared_ptrIN6spdlog5sinks4sinkEEEOT_RNSt16remove_referenceIS7_E4typeE" -> "Function- _ZNSt10shared_ptrIN6spdlog5sinks4sinkEEC2ERKS3_" [dir=back]
+	"Function- _ZSt10_ConstructISt10shared_ptrIN6spdlog5sinks4sinkEEJRKS4_EEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructISt10shared_ptrIN6spdlog5sinks4sinkEEJRKS4_EEvPT_DpOT0_" -> "Function- _ZSt7forwardIRKSt10shared_ptrIN6spdlog5sinks4sinkEEEOT_RNSt16remove_referenceIS7_E4typeE" [dir=back]
+	"Function- _ZSt11__addressofISt10shared_ptrIN6spdlog5sinks4sinkEEEPT_RS5_"
+	"Function- _ZSt11__addressofISt10shared_ptrIN6spdlog5sinks4sinkEEEPT_RS5_" -> "Function- _ZSt10_ConstructISt10shared_ptrIN6spdlog5sinks4sinkEEJRKS4_EEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt20__uninitialized_copyILb0EE13__uninit_copyIPKSt10shared_ptrIN6spdlog5sinks4sinkEEPS6_EET0_T_SB_SA_"
+	"Function- _ZNSt20__uninitialized_copyILb0EE13__uninit_copyIPKSt10shared_ptrIN6spdlog5sinks4sinkEEPS6_EET0_T_SB_SA_" -> "Function- _ZSt11__addressofISt10shared_ptrIN6spdlog5sinks4sinkEEEPT_RS5_" [dir=back]
+}

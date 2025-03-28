@@ -1,0 +1,103 @@
+digraph {
+	"Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE7_M_addrEv"
+	"Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE6_M_ptrEv"
+	"Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE6_M_ptrEv" -> "Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE7_M_addrEv" [dir=back]
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE6_M_ptrEv"
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE6_M_ptrEv" -> "Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE6_M_ptrEv" [dir=back]
+	"Function- _ZNSt14_Sp_ebo_helperILi0ESaIN4mqtt7messageEELb1EE6_S_getERS3_"
+	"Function- _ZNSt14_Sp_ebo_helperILi0ESaIN4mqtt7messageEELb1EE6_S_getERS3_" -> "Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE6_M_ptrEv" [dir=back]
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE5_Impl8_M_allocEv"
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE5_Impl8_M_allocEv" -> "Function- _ZNSt14_Sp_ebo_helperILi0ESaIN4mqtt7messageEELb1EE6_S_getERS3_" [dir=back]
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv"
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv" -> "Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE5_Impl8_M_allocEv" [dir=back]
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii"
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" -> "Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" [dir=back]
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii"
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv"
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" -> "Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" [dir=back]
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii"
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" -> "Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" [dir=back]
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii"
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv"
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" -> "Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" [dir=back]
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii"
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" -> "Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" [dir=back]
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii"
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv"
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" -> "Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" [dir=back]
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii"
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" -> "Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" [dir=back]
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii"
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv"
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" -> "Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" [dir=back]
+	"Function- _ZNKSt12__shared_ptrIN4mqtt14delivery_tokenELN9__gnu_cxx12_Lock_policyE2EEcvbEv"
+	"Function- _ZNKSt12__shared_ptrIN4mqtt14delivery_tokenELN9__gnu_cxx12_Lock_policyE2EEcvbEv" -> "Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" [dir=back]
+	"Function- _ZN8callback17delivery_completeESt10shared_ptrIN4mqtt14delivery_tokenEE"
+	"Function- _ZN8callback17delivery_completeESt10shared_ptrIN4mqtt14delivery_tokenEE" -> "Function- _ZNKSt12__shared_ptrIN4mqtt14delivery_tokenELN9__gnu_cxx12_Lock_policyE2EEcvbEv" [dir=back]
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii"
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" -> "Function- _ZN8callback17delivery_completeESt10shared_ptrIN4mqtt14delivery_tokenEE" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" [dir=back]
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii"
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv"
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" -> "Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" [dir=back]
+	"Function- _ZSt7forwardIMN2ft17TxtAxis1RefSwitchEFbtEEOT_RNSt16remove_referenceIS4_E4typeE"
+	"Function- _ZSt7forwardIMN2ft17TxtAxis1RefSwitchEFbtEEOT_RNSt16remove_referenceIS4_E4typeE" -> "Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" [dir=back]
+	"Function- _ZNSt10_Head_baseILj0EMN2ft17TxtAxis1RefSwitchEFbtELb0EE7_M_headERS4_"
+	"Function- _ZNSt10_Head_baseILj0EMN2ft17TxtAxis1RefSwitchEFbtELb0EE7_M_headERS4_" -> "Function- _ZSt7forwardIMN2ft17TxtAxis1RefSwitchEFbtEEOT_RNSt16remove_referenceIS4_E4typeE" [dir=back]
+	"Function- _ZNSt11_Tuple_implILj0EJMN2ft17TxtAxis1RefSwitchEFbtEPS1_tEE7_M_headERS5_"
+	"Function- _ZNSt11_Tuple_implILj0EJMN2ft17TxtAxis1RefSwitchEFbtEPS1_tEE7_M_headERS5_" -> "Function- _ZNSt10_Head_baseILj0EMN2ft17TxtAxis1RefSwitchEFbtELb0EE7_M_headERS4_" [dir=back]
+	"Function- _ZSt7forwardIPN2ft17TxtAxis1RefSwitchEEOT_RNSt16remove_referenceIS3_E4typeE"
+	"Function- _ZSt7forwardIPN2ft17TxtAxis1RefSwitchEEOT_RNSt16remove_referenceIS3_E4typeE" -> "Function- _ZNSt11_Tuple_implILj0EJMN2ft17TxtAxis1RefSwitchEFbtEPS1_tEE7_M_headERS5_" [dir=back]
+	"Function- _ZNSt10_Head_baseILj1EPN2ft17TxtAxis1RefSwitchELb0EEC2IS2_EEOT_"
+	"Function- _ZNSt10_Head_baseILj1EPN2ft17TxtAxis1RefSwitchELb0EEC2IS2_EEOT_" -> "Function- _ZSt7forwardIPN2ft17TxtAxis1RefSwitchEEOT_RNSt16remove_referenceIS3_E4typeE" [dir=back]
+	"Function- _ZSt7forwardIPN2ft17TxtAxis1RefSwitchEEOT_RNSt16remove_referenceIS3_E4typeE"
+	"Function- _ZSt7forwardIPN2ft17TxtAxis1RefSwitchEEOT_RNSt16remove_referenceIS3_E4typeE" -> "Function- _ZNSt10_Head_baseILj1EPN2ft17TxtAxis1RefSwitchELb0EEC2IS2_EEOT_" [dir=back]
+	"Function- _ZNSt10_Head_baseILj1EPN2ft17TxtAxis1RefSwitchELb0EE7_M_headERS3_"
+	"Function- _ZNSt10_Head_baseILj1EPN2ft17TxtAxis1RefSwitchELb0EE7_M_headERS3_" -> "Function- _ZSt7forwardIPN2ft17TxtAxis1RefSwitchEEOT_RNSt16remove_referenceIS3_E4typeE" [dir=back]
+	"Function- _ZNSt11_Tuple_implILj1EJPN2ft17TxtAxis1RefSwitchEtEE7_M_headERS3_"
+	"Function- _ZNSt11_Tuple_implILj1EJPN2ft17TxtAxis1RefSwitchEtEE7_M_headERS3_" -> "Function- _ZNSt10_Head_baseILj1EPN2ft17TxtAxis1RefSwitchELb0EE7_M_headERS3_" [dir=back]
+	"Function- _ZSt7forwardItEOT_RNSt16remove_referenceIS0_E4typeE"
+	"Function- _ZSt7forwardItEOT_RNSt16remove_referenceIS0_E4typeE" -> "Function- _ZNSt11_Tuple_implILj1EJPN2ft17TxtAxis1RefSwitchEtEE7_M_headERS3_" [dir=back]
+	"Function- _ZNSt10_Head_baseILj2EtLb0EEC2ItEEOT_"
+	"Function- _ZNSt10_Head_baseILj2EtLb0EEC2ItEEOT_" -> "Function- _ZSt7forwardItEOT_RNSt16remove_referenceIS0_E4typeE" [dir=back]
+	"Function- _ZSt7forwardItEOT_RNSt16remove_referenceIS0_E4typeE"
+	"Function- _ZSt7forwardItEOT_RNSt16remove_referenceIS0_E4typeE" -> "Function- _ZNSt10_Head_baseILj2EtLb0EEC2ItEEOT_" [dir=back]
+	"Function- _ZNSt10_Head_baseILj2EtLb0EE7_M_headERS0_"
+	"Function- _ZNSt10_Head_baseILj2EtLb0EE7_M_headERS0_" -> "Function- _ZSt7forwardItEOT_RNSt16remove_referenceIS0_E4typeE" [dir=back]
+	"Function- _ZNSt11_Tuple_implILj2EJtEE7_M_headERS0_"
+	"Function- _ZNSt11_Tuple_implILj2EJtEE7_M_headERS0_" -> "Function- _ZNSt10_Head_baseILj2EtLb0EE7_M_headERS0_" [dir=back]
+	"Function- _ZNSt11_Tuple_implILj2EJtEEC2EOS0_"
+	"Function- _ZNSt11_Tuple_implILj2EJtEEC2EOS0_" -> "Function- _ZNSt11_Tuple_implILj2EJtEE7_M_headERS0_" [dir=back]
+	"Function- _ZSt4moveIRSt11_Tuple_implILj2EJtEEEONSt16remove_referenceIT_E4typeEOS4_"
+	"Function- _ZSt4moveIRSt11_Tuple_implILj2EJtEEEONSt16remove_referenceIT_E4typeEOS4_" -> "Function- _ZNSt11_Tuple_implILj2EJtEEC2EOS0_" [dir=back]
+	"Function- _ZNSt11_Tuple_implILj1EJPN2ft17TxtAxis1RefSwitchEtEE7_M_tailERS3_"
+	"Function- _ZNSt11_Tuple_implILj1EJPN2ft17TxtAxis1RefSwitchEtEE7_M_tailERS3_" -> "Function- _ZSt4moveIRSt11_Tuple_implILj2EJtEEEONSt16remove_referenceIT_E4typeEOS4_" [dir=back]
+	"Function- _ZNSt11_Tuple_implILj1EJPN2ft17TxtAxis1RefSwitchEtEEC2EOS3_"
+	"Function- _ZNSt11_Tuple_implILj1EJPN2ft17TxtAxis1RefSwitchEtEEC2EOS3_" -> "Function- _ZNSt11_Tuple_implILj1EJPN2ft17TxtAxis1RefSwitchEtEE7_M_tailERS3_" [dir=back]
+	"Function- _ZSt4moveIRSt11_Tuple_implILj1EJPN2ft17TxtAxis1RefSwitchEtEEEONSt16remove_referenceIT_E4typeEOS7_"
+	"Function- _ZSt4moveIRSt11_Tuple_implILj1EJPN2ft17TxtAxis1RefSwitchEtEEEONSt16remove_referenceIT_E4typeEOS7_" -> "Function- _ZNSt11_Tuple_implILj1EJPN2ft17TxtAxis1RefSwitchEtEEC2EOS3_" [dir=back]
+	"Function- _ZNSt11_Tuple_implILj0EJMN2ft17TxtAxis1RefSwitchEFbtEPS1_tEE7_M_tailERS5_"
+	"Function- _ZNSt11_Tuple_implILj0EJMN2ft17TxtAxis1RefSwitchEFbtEPS1_tEE7_M_tailERS5_" -> "Function- _ZSt4moveIRSt11_Tuple_implILj1EJPN2ft17TxtAxis1RefSwitchEtEEEONSt16remove_referenceIT_E4typeEOS7_" [dir=back]
+	"Function- _ZNSt11_Tuple_implILj0EJMN2ft17TxtAxis1RefSwitchEFbtEPS1_tEEC2EOS5_"
+	"Function- _ZNSt11_Tuple_implILj0EJMN2ft17TxtAxis1RefSwitchEFbtEPS1_tEEC2EOS5_" -> "Function- _ZNSt11_Tuple_implILj0EJMN2ft17TxtAxis1RefSwitchEFbtEPS1_tEE7_M_tailERS5_" [dir=back]
+	"Function- _ZNSt5tupleIJMN2ft17TxtAxis1RefSwitchEFbtEPS1_tEEC2EOS5_"
+	"Function- _ZNSt5tupleIJMN2ft17TxtAxis1RefSwitchEFbtEPS1_tEEC2EOS5_" -> "Function- _ZNSt11_Tuple_implILj0EJMN2ft17TxtAxis1RefSwitchEFbtEPS1_tEEC2EOS5_" [dir=back]
+	"Function- _ZNSt6thread8_InvokerISt5tupleIJMN2ft17TxtAxis1RefSwitchEFbtEPS3_tEEEC2EOS8_"
+	"Function- _ZNSt6thread8_InvokerISt5tupleIJMN2ft17TxtAxis1RefSwitchEFbtEPS3_tEEEC2EOS8_" -> "Function- _ZNSt5tupleIJMN2ft17TxtAxis1RefSwitchEFbtEPS1_tEEC2EOS5_" [dir=back]
+	"Function- _ZSt7forwardINSt6thread8_InvokerISt5tupleIJMN2ft17TxtAxis1RefSwitchEFbtEPS4_tEEEEEOT_RNSt16remove_referenceISA_E4typeE"
+	"Function- _ZSt7forwardINSt6thread8_InvokerISt5tupleIJMN2ft17TxtAxis1RefSwitchEFbtEPS4_tEEEEEOT_RNSt16remove_referenceISA_E4typeE" -> "Function- _ZNSt6thread8_InvokerISt5tupleIJMN2ft17TxtAxis1RefSwitchEFbtEPS3_tEEEC2EOS8_" [dir=back]
+}
