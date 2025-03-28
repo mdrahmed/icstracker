@@ -47,4 +47,5 @@ All the logs/traces are present in the Data folder. Using some of those logs, we
 The `hbw-graph` folder has graphs from `hbw` and `vgr-graph` contains all sub-graphs of `vgr`. The `backtracking_graphs` folder contains combined sub-graphs of those two.
 
 
-
+#### Graph Generation
+The 

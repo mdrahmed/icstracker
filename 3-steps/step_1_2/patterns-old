@@ -1,0 +1,13 @@
+Pattern 1
+_Z12modbusThreadPv
+_Z11startServerti
+_Z12createSockett
+
+Pattern 2
+_Z13waitForClientii
+
+Pattern 3
+_Z15updateBuffersInv
+_Z12read_dig_inpi
+
+Number of patterns: 3
