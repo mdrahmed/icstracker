@@ -1,0 +1,103 @@
+digraph {
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"PN532_i2cFunction- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"PN532_i2cFunction- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "PN532_i2cFunction- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"NFC device- Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"NFC device- Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "NFC device- Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si"
+	"Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"open nfc device ... Function- _ZN2ft12TxtNfcDevice4openEv"
+	"open nfc device ... Function- _ZN2ft12TxtNfcDevice4openEv" -> "Function- _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si" [dir=back]
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc"
+	"Function- _ZNSt11char_traitsIcE6lengthEPKc" -> "open nfc device ... Function- _ZN2ft12TxtNfcDevice4openEv" [dir=back]
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc"
+	"Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" -> "Function- _ZNSt11char_traitsIcE6lengthEPKc" [dir=back]
+	"Function- _ZNSt12_Vector_baseIPN2ft8ObserverESaIS2_EE13_M_deallocateEPS2_j"
+	"Function- _ZNSt12_Vector_baseIPN2ft8ObserverESaIS2_EE13_M_deallocateEPS2_j" -> "Function- _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" [dir=back]
+	"Function- _ZNSt12_Destroy_auxILb1EE9__destroyIPPN2ft8ObserverEEEvT_S6_"
+	"Function- _ZNSt12_Destroy_auxILb1EE9__destroyIPPN2ft8ObserverEEEvT_S6_" -> "Function- _ZNSt12_Vector_baseIPN2ft8ObserverESaIS2_EE13_M_deallocateEPS2_j" [dir=back]
+	"Function- _ZSt8_DestroyIPPN2ft8ObserverEEvT_S4_"
+	"Function- _ZSt8_DestroyIPPN2ft8ObserverEEvT_S4_" -> "Function- _ZNSt12_Destroy_auxILb1EE9__destroyIPPN2ft8ObserverEEEvT_S6_" [dir=back]
+	"Function- _ZSt8_DestroyIPPN2ft8ObserverES2_EvT_S4_RSaIT0_E"
+	"Function- _ZSt8_DestroyIPPN2ft8ObserverES2_EvT_S4_RSaIT0_E" -> "Function- _ZSt8_DestroyIPPN2ft8ObserverEEvT_S4_" [dir=back]
+	"Function- _ZNSt12_Vector_baseIPN2ft8ObserverESaIS2_EE19_M_get_Tp_allocatorEv"
+	"Function- _ZNSt12_Vector_baseIPN2ft8ObserverESaIS2_EE19_M_get_Tp_allocatorEv" -> "Function- _ZSt8_DestroyIPPN2ft8ObserverES2_EvT_S4_RSaIT0_E" [dir=back]
+	"Function- _ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mIPN2ft8ObserverEEEPT_PKS6_S9_S7_"
+	"Function- _ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mIPN2ft8ObserverEEEPT_PKS6_S9_S7_" -> "Function- _ZNSt12_Vector_baseIPN2ft8ObserverESaIS2_EE19_M_get_Tp_allocatorEv" [dir=back]
+	"Function- _ZSt13__copy_move_aILb1EPPN2ft8ObserverES3_ET1_T0_S5_S4_"
+	"Function- _ZSt13__copy_move_aILb1EPPN2ft8ObserverES3_ET1_T0_S5_S4_" -> "Function- _ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mIPN2ft8ObserverEEEPT_PKS6_S9_S7_" [dir=back]
+	"Function- _ZSt12__niter_baseIPPN2ft8ObserverEET_S4_"
+	"Function- _ZSt12__niter_baseIPPN2ft8ObserverEET_S4_" -> "Function- _ZSt13__copy_move_aILb1EPPN2ft8ObserverES3_ET1_T0_S5_S4_" [dir=back]
+	"Function- _ZSt12__niter_baseIPPN2ft8ObserverEET_S4_"
+	"Function- _ZSt12__niter_baseIPPN2ft8ObserverEET_S4_" -> "Function- _ZSt12__niter_baseIPPN2ft8ObserverEET_S4_" [dir=back]
+	"Function- _ZSt12__niter_baseIPPN2ft8ObserverEET_S4_"
+	"Function- _ZSt12__niter_baseIPPN2ft8ObserverEET_S4_" -> "Function- _ZSt12__niter_baseIPPN2ft8ObserverEET_S4_" [dir=back]
+	"Function- _ZSt14__copy_move_a2ILb1EPPN2ft8ObserverES3_ET1_T0_S5_S4_"
+	"Function- _ZSt14__copy_move_a2ILb1EPPN2ft8ObserverES3_ET1_T0_S5_S4_" -> "Function- _ZSt12__niter_baseIPPN2ft8ObserverEET_S4_" [dir=back]
+	"Function- _ZSt12__miter_baseIPPN2ft8ObserverEET_S4_"
+	"Function- _ZSt12__miter_baseIPPN2ft8ObserverEET_S4_" -> "Function- _ZSt14__copy_move_a2ILb1EPPN2ft8ObserverES3_ET1_T0_S5_S4_" [dir=back]
+	"Function- _ZNKSt13move_iteratorIPPN2ft8ObserverEE4baseEv"
+	"Function- _ZNKSt13move_iteratorIPPN2ft8ObserverEE4baseEv" -> "Function- _ZSt12__miter_baseIPPN2ft8ObserverEET_S4_" [dir=back]
+	"Function- _ZSt12__miter_baseIPPN2ft8ObserverEEDTcl12__miter_basecldtfp_4baseEEESt13move_iteratorIT_E"
+	"Function- _ZSt12__miter_baseIPPN2ft8ObserverEEDTcl12__miter_basecldtfp_4baseEEESt13move_iteratorIT_E" -> "Function- _ZNKSt13move_iteratorIPPN2ft8ObserverEE4baseEv" [dir=back]
+	"Function- _ZSt12__miter_baseIPPN2ft8ObserverEET_S4_"
+	"Function- _ZSt12__miter_baseIPPN2ft8ObserverEET_S4_" -> "Function- _ZSt12__miter_baseIPPN2ft8ObserverEEDTcl12__miter_basecldtfp_4baseEEESt13move_iteratorIT_E" [dir=back]
+	"Function- _ZNKSt13move_iteratorIPPN2ft8ObserverEE4baseEv"
+	"Function- _ZNKSt13move_iteratorIPPN2ft8ObserverEE4baseEv" -> "Function- _ZSt12__miter_baseIPPN2ft8ObserverEET_S4_" [dir=back]
+}

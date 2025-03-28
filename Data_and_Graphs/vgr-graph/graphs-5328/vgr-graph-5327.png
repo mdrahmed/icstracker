@@ -1,0 +1,103 @@
+digraph {
+	"Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEE4baseEv"
+	"Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEE4baseEv"
+	"Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEE4baseEv" -> "Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEE4baseEv" [dir=back]
+	"Function- _ZN9__gnu_cxxneIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEEbRKNS_17__normal_iteratorIT_T0_EESF_"
+	"Function- _ZN9__gnu_cxxneIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEEbRKNS_17__normal_iteratorIT_T0_EESF_" -> "Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEE4baseEv" [dir=back]
+	"Function- _ZN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEppEv"
+	"Function- _ZN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEppEv" -> "Function- _ZN9__gnu_cxxneIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEEbRKNS_17__normal_iteratorIT_T0_EESF_" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEppEv" [dir=back]
+	"Function- _ZL22__gthread_mutex_unlockP15pthread_mutex_t"
+	"Function- _ZL22__gthread_mutex_unlockP15pthread_mutex_t" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt5mutex6unlockEv"
+	"Function- _ZNSt5mutex6unlockEv" -> "Function- _ZL22__gthread_mutex_unlockP15pthread_mutex_t" [dir=back]
+	"Function- _ZNSt10lock_guardISt5mutexED2Ev"
+	"Function- _ZNSt10lock_guardISt5mutexED2Ev" -> "Function- _ZNSt5mutex6unlockEv" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZNSt10lock_guardISt5mutexED2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcED2Ev"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcED2Ev" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE4dataEv"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE4dataEv" -> "Function- _ZN3fmt2v58internal12basic_bufferIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj500ESaIcEE10deallocateEv"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj500ESaIcEE10deallocateEv" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE4dataEv" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj500ESaIcEED2Ev"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj500ESaIcEED2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj500ESaIcEE10deallocateEv" [dir=back]
+	"Function- _ZNK3fmt2v58internal12basic_bufferIcE4dataEv"
+	"Function- _ZNK3fmt2v58internal12basic_bufferIcE4dataEv" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj500ESaIcEED2Ev" [dir=back]
+	"Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv"
+	"Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv" -> "Function- _ZNK3fmt2v58internal12basic_bufferIcE4dataEv" [dir=back]
+	"Function- _ZN6spdlog7details11file_helper5writeERKN3fmt2v519basic_memory_bufferIcLj500ESaIcEEE"
+	"Function- _ZN6spdlog7details11file_helper5writeERKN3fmt2v519basic_memory_bufferIcLj500ESaIcEEE" -> "Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv" [dir=back]
+	"Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_"
+	"Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_" -> "Function- _ZN6spdlog7details11file_helper5writeERKN3fmt2v519basic_memory_bufferIcLj500ESaIcEEE" [dir=back]
+	"Function- _ZSt13__copy_move_aILb0EPKcPcET1_T0_S4_S3_"
+	"Function- _ZSt13__copy_move_aILb0EPKcPcET1_T0_S4_S3_" -> "Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_" [dir=back]
+	"Function- _ZSt12__niter_baseIPcET_S1_"
+	"Function- _ZSt12__niter_baseIPcET_S1_" -> "Function- _ZSt13__copy_move_aILb0EPKcPcET1_T0_S4_S3_" [dir=back]
+	"Function- _ZSt12__niter_baseIPKcET_S2_"
+	"Function- _ZSt12__niter_baseIPKcET_S2_" -> "Function- _ZSt12__niter_baseIPcET_S1_" [dir=back]
+	"Function- _ZSt12__niter_baseIPKcET_S2_"
+	"Function- _ZSt12__niter_baseIPKcET_S2_" -> "Function- _ZSt12__niter_baseIPKcET_S2_" [dir=back]
+	"Function- _ZSt14__copy_move_a2ILb0EPKcPcET1_T0_S4_S3_"
+	"Function- _ZSt14__copy_move_a2ILb0EPKcPcET1_T0_S4_S3_" -> "Function- _ZSt12__niter_baseIPKcET_S2_" [dir=back]
+	"Function- _ZSt12__miter_baseIPKcET_S2_"
+	"Function- _ZSt12__miter_baseIPKcET_S2_" -> "Function- _ZSt14__copy_move_a2ILb0EPKcPcET1_T0_S4_S3_" [dir=back]
+	"Function- _ZSt12__miter_baseIPKcET_S2_"
+	"Function- _ZSt12__miter_baseIPKcET_S2_" -> "Function- _ZSt12__miter_baseIPKcET_S2_" [dir=back]
+	"Function- _ZSt4copyIPKcPcET0_T_S4_S3_"
+	"Function- _ZSt4copyIPKcPcET0_T_S4_S3_" -> "Function- _ZSt12__miter_baseIPKcET_S2_" [dir=back]
+	"Function- _ZNSt20__uninitialized_copyILb1EE13__uninit_copyIPKcPcEET0_T_S6_S5_"
+	"Function- _ZNSt20__uninitialized_copyILb1EE13__uninit_copyIPKcPcEET0_T_S6_S5_" -> "Function- _ZSt4copyIPKcPcET0_T_S4_S3_" [dir=back]
+	"Function- _ZSt18uninitialized_copyIPKcPcET0_T_S4_S3_"
+	"Function- _ZSt18uninitialized_copyIPKcPcET0_T_S4_S3_" -> "Function- _ZNSt20__uninitialized_copyILb1EE13__uninit_copyIPKcPcEET0_T_S6_S5_" [dir=back]
+	"Function- _ZN3fmt2v58internal12make_checkedIcEEPT_S4_j"
+	"Function- _ZN3fmt2v58internal12make_checkedIcEEPT_S4_j" -> "Function- _ZSt18uninitialized_copyIPKcPcET0_T_S4_S3_" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" -> "Function- _ZN3fmt2v58internal12make_checkedIcEEPT_S4_j" [dir=back]
+	"Function- _ZN3fmt2v58internal11to_unsignedIiEENSt13make_unsignedIT_E4typeES4_"
+	"Function- _ZN3fmt2v58internal11to_unsignedIiEENSt13make_unsignedIT_E4typeES4_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE6appendIcEEvPKT_S7_"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE6appendIcEEvPKT_S7_" -> "Function- _ZN3fmt2v58internal11to_unsignedIiEENSt13make_unsignedIT_E4typeES4_" [dir=back]
+	"Function- _ZNK3fmt2v517basic_string_viewIcE4sizeEv"
+	"Function- _ZNK3fmt2v517basic_string_viewIcE4sizeEv" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE6appendIcEEvPKT_S7_" [dir=back]
+	"Function- _ZNK3fmt2v517basic_string_viewIcE4dataEv"
+	"Function- _ZNK3fmt2v517basic_string_viewIcE4dataEv" -> "Function- _ZNK3fmt2v517basic_string_viewIcE4sizeEv" [dir=back]
+	"Function- _ZN6spdlog7details10fmt_helper18append_string_viewILj500EEEvN3fmt2v517basic_string_viewIcEERNS4_19basic_memory_bufferIcXT_ESaIcEEE"
+	"Function- _ZN6spdlog7details10fmt_helper18append_string_viewILj500EEEvN3fmt2v517basic_string_viewIcEERNS4_19basic_memory_bufferIcXT_ESaIcEEE" -> "Function- _ZNK3fmt2v517basic_string_viewIcE4dataEv" [dir=back]
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv"
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv" -> "Function- _ZN6spdlog7details10fmt_helper18append_string_viewILj500EEEvN3fmt2v517basic_string_viewIcEERNS4_19basic_memory_bufferIcXT_ESaIcEEE" [dir=back]
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv"
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv" -> "Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv" [dir=back]
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4dataEv"
+	"Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4dataEv" -> "Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv" [dir=back]
+	"Function- _ZN3fmt2v517basic_string_viewIcEC2ISt11char_traitsIcEEERKNSt7__cxx1112basic_stringIcT_SaIcEEE"
+	"Function- _ZN3fmt2v517basic_string_viewIcEC2ISt11char_traitsIcEEERKNSt7__cxx1112basic_stringIcT_SaIcEEE" -> "Function- _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4dataEv" [dir=back]
+	"Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10unique_ptrIN6spdlog7details14flag_formatterESt14default_deleteIS4_EESt6vectorIS7_SaIS7_EEE4baseEv"
+	"Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10unique_ptrIN6spdlog7details14flag_formatterESt14default_deleteIS4_EESt6vectorIS7_SaIS7_EEE4baseEv" -> "Function- _ZN3fmt2v517basic_string_viewIcEC2ISt11char_traitsIcEEERKNSt7__cxx1112basic_stringIcT_SaIcEEE" [dir=back]
+	"Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10unique_ptrIN6spdlog7details14flag_formatterESt14default_deleteIS4_EESt6vectorIS7_SaIS7_EEE4baseEv"
+	"Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10unique_ptrIN6spdlog7details14flag_formatterESt14default_deleteIS4_EESt6vectorIS7_SaIS7_EEE4baseEv" -> "Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10unique_ptrIN6spdlog7details14flag_formatterESt14default_deleteIS4_EESt6vectorIS7_SaIS7_EEE4baseEv" [dir=back]
+	"Function- _ZN9__gnu_cxxneIPSt10unique_ptrIN6spdlog7details14flag_formatterESt14default_deleteIS4_EESt6vectorIS7_SaIS7_EEEEbRKNS_17__normal_iteratorIT_T0_EESH_"
+	"Function- _ZN9__gnu_cxxneIPSt10unique_ptrIN6spdlog7details14flag_formatterESt14default_deleteIS4_EESt6vectorIS7_SaIS7_EEEEbRKNS_17__normal_iteratorIT_T0_EESH_" -> "Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10unique_ptrIN6spdlog7details14flag_formatterESt14default_deleteIS4_EESt6vectorIS7_SaIS7_EEE4baseEv" [dir=back]
+	"Function- _ZN9__gnu_cxx17__normal_iteratorIPSt10unique_ptrIN6spdlog7details14flag_formatterESt14default_deleteIS4_EESt6vectorIS7_SaIS7_EEEppEv"
+	"Function- _ZN9__gnu_cxx17__normal_iteratorIPSt10unique_ptrIN6spdlog7details14flag_formatterESt14default_deleteIS4_EESt6vectorIS7_SaIS7_EEEppEv" -> "Function- _ZN9__gnu_cxxneIPSt10unique_ptrIN6spdlog7details14flag_formatterESt14default_deleteIS4_EESt6vectorIS7_SaIS7_EEEEbRKNS_17__normal_iteratorIT_T0_EESH_" [dir=back]
+	"Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_"
+	"Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_" -> "Function- _ZN9__gnu_cxx17__normal_iteratorIPSt10unique_ptrIN6spdlog7details14flag_formatterESt14default_deleteIS4_EESt6vectorIS7_SaIS7_EEEppEv" [dir=back]
+	"Function- _ZSt13__copy_move_aILb0EPKcPcET1_T0_S4_S3_"
+	"Function- _ZSt13__copy_move_aILb0EPKcPcET1_T0_S4_S3_" -> "Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_" [dir=back]
+	"Function- _ZSt12__niter_baseIPcET_S1_"
+	"Function- _ZSt12__niter_baseIPcET_S1_" -> "Function- _ZSt13__copy_move_aILb0EPKcPcET1_T0_S4_S3_" [dir=back]
+	"Function- _ZSt12__niter_baseIPKcET_S2_"
+	"Function- _ZSt12__niter_baseIPKcET_S2_" -> "Function- _ZSt12__niter_baseIPcET_S1_" [dir=back]
+	"Function- _ZSt12__niter_baseIPKcET_S2_"
+	"Function- _ZSt12__niter_baseIPKcET_S2_" -> "Function- _ZSt12__niter_baseIPKcET_S2_" [dir=back]
+	"Function- _ZSt14__copy_move_a2ILb0EPKcPcET1_T0_S4_S3_"
+	"Function- _ZSt14__copy_move_a2ILb0EPKcPcET1_T0_S4_S3_" -> "Function- _ZSt12__niter_baseIPKcET_S2_" [dir=back]
+	"Function- _ZSt12__miter_baseIPKcET_S2_"
+	"Function- _ZSt12__miter_baseIPKcET_S2_" -> "Function- _ZSt14__copy_move_a2ILb0EPKcPcET1_T0_S4_S3_" [dir=back]
+	"Function- _ZSt12__miter_baseIPKcET_S2_"
+	"Function- _ZSt12__miter_baseIPKcET_S2_" -> "Function- _ZSt12__miter_baseIPKcET_S2_" [dir=back]
+}

@@ -1,0 +1,103 @@
+digraph {
+	"Function- _ZNSt16allocator_traitsISaIN4mqtt7messageEEE7destroyIS1_EEvRS2_PT_"
+	"Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE7_M_addrEv"
+	"Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE7_M_addrEv" -> "Function- _ZNSt16allocator_traitsISaIN4mqtt7messageEEE7destroyIS1_EEvRS2_PT_" [dir=back]
+	"Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE6_M_ptrEv"
+	"Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE6_M_ptrEv" -> "Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE7_M_addrEv" [dir=back]
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE6_M_ptrEv"
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE6_M_ptrEv" -> "Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE6_M_ptrEv" [dir=back]
+	"Function- _ZNSt14_Sp_ebo_helperILi0ESaIN4mqtt7messageEELb1EE6_S_getERS3_"
+	"Function- _ZNSt14_Sp_ebo_helperILi0ESaIN4mqtt7messageEELb1EE6_S_getERS3_" -> "Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE6_M_ptrEv" [dir=back]
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE5_Impl8_M_allocEv"
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE5_Impl8_M_allocEv" -> "Function- _ZNSt14_Sp_ebo_helperILi0ESaIN4mqtt7messageEELb1EE6_S_getERS3_" [dir=back]
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv"
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv" -> "Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE5_Impl8_M_allocEv" [dir=back]
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii"
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" -> "Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" [dir=back]
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii"
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv"
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" -> "Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" [dir=back]
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii"
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" -> "Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" [dir=back]
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii"
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv"
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" -> "Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" [dir=back]
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii"
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" -> "Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" [dir=back]
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii"
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv"
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" -> "Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" [dir=back]
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii"
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" -> "Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" [dir=back]
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii"
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv"
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" -> "Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" [dir=back]
+	"Function- _ZNKSt12__shared_ptrIN4mqtt14delivery_tokenELN9__gnu_cxx12_Lock_policyE2EEcvbEv"
+	"Function- _ZNKSt12__shared_ptrIN4mqtt14delivery_tokenELN9__gnu_cxx12_Lock_policyE2EEcvbEv" -> "Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" [dir=back]
+	"Function- _ZN8callback17delivery_completeESt10shared_ptrIN4mqtt14delivery_tokenEE"
+	"Function- _ZN8callback17delivery_completeESt10shared_ptrIN4mqtt14delivery_tokenEE" -> "Function- _ZNKSt12__shared_ptrIN4mqtt14delivery_tokenELN9__gnu_cxx12_Lock_policyE2EEcvbEv" [dir=back]
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii"
+	"Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" -> "Function- _ZN8callback17delivery_completeESt10shared_ptrIN4mqtt14delivery_tokenEE" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN9__gnu_cxxL18__exchange_and_addEPVii" [dir=back]
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii"
+	"Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv"
+	"Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" -> "Function- _ZN9__gnu_cxxL27__exchange_and_add_dispatchEPii" [dir=back]
+	"Function- _ZN4mqtt10buffer_refIcEC2EOS1_"
+	"Function- _ZN4mqtt10buffer_refIcEC2EOS1_" -> "Function- _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv" [dir=back]
+	"Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE"
+	"Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE" -> "Function- _ZN4mqtt10buffer_refIcEC2EOS1_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIN4mqtt7messageEE9constructIS2_JNS1_10buffer_refIcEES6_RKiRKbEEEvPT_DpOT0_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIN4mqtt7messageEE9constructIS2_JNS1_10buffer_refIcEES6_RKiRKbEEEvPT_DpOT0_" -> "Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE" [dir=back]
+	"Function- _ZSt7forwardIRKbEOT_RNSt16remove_referenceIS2_E4typeE"
+	"Function- _ZSt7forwardIRKbEOT_RNSt16remove_referenceIS2_E4typeE" -> "Function- _ZN9__gnu_cxx13new_allocatorIN4mqtt7messageEE9constructIS2_JNS1_10buffer_refIcEES6_RKiRKbEEEvPT_DpOT0_" [dir=back]
+	"Function- _ZSt7forwardIRKiEOT_RNSt16remove_referenceIS2_E4typeE"
+	"Function- _ZSt7forwardIRKiEOT_RNSt16remove_referenceIS2_E4typeE" -> "Function- _ZSt7forwardIRKbEOT_RNSt16remove_referenceIS2_E4typeE" [dir=back]
+	"Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE"
+	"Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE" -> "Function- _ZSt7forwardIRKiEOT_RNSt16remove_referenceIS2_E4typeE" [dir=back]
+	"Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE"
+	"Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE" -> "Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE" [dir=back]
+	"Function- _ZNSt16allocator_traitsISaIN4mqtt7messageEEE9constructIS1_JNS0_10buffer_refIcEES6_RKiRKbEEEvRS2_PT_DpOT0_"
+	"Function- _ZNSt16allocator_traitsISaIN4mqtt7messageEEE9constructIS1_JNS0_10buffer_refIcEES6_RKiRKbEEEvRS2_PT_DpOT0_" -> "Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE" [dir=back]
+	"Function- _ZSt7forwardIRKbEOT_RNSt16remove_referenceIS2_E4typeE"
+	"Function- _ZSt7forwardIRKbEOT_RNSt16remove_referenceIS2_E4typeE" -> "Function- _ZNSt16allocator_traitsISaIN4mqtt7messageEEE9constructIS1_JNS0_10buffer_refIcEES6_RKiRKbEEEvRS2_PT_DpOT0_" [dir=back]
+	"Function- _ZSt7forwardIRKiEOT_RNSt16remove_referenceIS2_E4typeE"
+	"Function- _ZSt7forwardIRKiEOT_RNSt16remove_referenceIS2_E4typeE" -> "Function- _ZSt7forwardIRKbEOT_RNSt16remove_referenceIS2_E4typeE" [dir=back]
+	"Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE"
+	"Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE" -> "Function- _ZSt7forwardIRKiEOT_RNSt16remove_referenceIS2_E4typeE" [dir=back]
+	"Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE"
+	"Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE" -> "Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE" [dir=back]
+	"Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE7_M_addrEv"
+	"Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE7_M_addrEv" -> "Function- _ZSt7forwardIN4mqtt10buffer_refIcEEEOT_RNSt16remove_referenceIS3_E4typeE" [dir=back]
+	"Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE6_M_ptrEv"
+	"Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE6_M_ptrEv" -> "Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE7_M_addrEv" [dir=back]
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE6_M_ptrEv"
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE6_M_ptrEv" -> "Function- _ZN9__gnu_cxx16__aligned_bufferIN4mqtt7messageEE6_M_ptrEv" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIN4mqtt7messageEED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIN4mqtt7messageEED2Ev" -> "Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE6_M_ptrEv" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIN4mqtt7messageEEC2ERKS3_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIN4mqtt7messageEEC2ERKS3_" -> "Function- _ZN9__gnu_cxx13new_allocatorIN4mqtt7messageEED2Ev" [dir=back]
+	"Function- _ZNSaIN4mqtt7messageEEC2ERKS1_"
+	"Function- _ZNSaIN4mqtt7messageEEC2ERKS1_" -> "Function- _ZN9__gnu_cxx13new_allocatorIN4mqtt7messageEEC2ERKS3_" [dir=back]
+	"Function- _ZNSt14_Sp_ebo_helperILi0ESaIN4mqtt7messageEELb1EEC2ERKS2_"
+	"Function- _ZNSt14_Sp_ebo_helperILi0ESaIN4mqtt7messageEELb1EEC2ERKS2_" -> "Function- _ZNSaIN4mqtt7messageEEC2ERKS1_" [dir=back]
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE5_ImplC2ES2_"
+	"Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE5_ImplC2ES2_" -> "Function- _ZNSt14_Sp_ebo_helperILi0ESaIN4mqtt7messageEELb1EEC2ERKS2_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIN4mqtt7messageEEC2ERKS3_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIN4mqtt7messageEEC2ERKS3_" -> "Function- _ZNSt23_Sp_counted_ptr_inplaceIN4mqtt7messageESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE5_ImplC2ES2_" [dir=back]
+	"Function- _ZNSaIN4mqtt7messageEEC2ERKS1_"
+	"Function- _ZNSaIN4mqtt7messageEEC2ERKS1_" -> "Function- _ZN9__gnu_cxx13new_allocatorIN4mqtt7messageEEC2ERKS3_" [dir=back]
+}

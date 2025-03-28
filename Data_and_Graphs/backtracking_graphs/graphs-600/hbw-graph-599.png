@@ -1,0 +1,2003 @@
+digraph {
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" -> "Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" [dir=back]
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev"
+	"Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEE4zeroEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msgC2Ev"
+	"Function- _ZN6spdlog7details9async_msgC2Ev" -> "Function- _ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIxSt5ratioILx1ELx1000000000EEEEEC2Ev" [dir=back]
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_"
+	"Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" -> "Function- _ZN6spdlog7details9async_msgC2Ev" [dir=back]
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_"
+	"Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" -> "Function- _ZSt10_ConstructIN6spdlog7details9async_msgEJEEvPT_DpOT0_" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZSt11__addressofIN6spdlog7details9async_msgEEPT_RS3_" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev"
+	"Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" -> "Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EEC2Ev" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZNSt10shared_ptrIN6spdlog12async_loggerEEC2Ev" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZNSaIcED2Ev"
+	"Function- _ZNSaIcED2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" -> "Function- _ZNSaIcED2Ev" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE3setEPcj" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcEC2EPcjj" [dir=back]
+	"Function- _ZNSaIcEC2ERKS_"
+	"Function- _ZNSaIcEC2ERKS_" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_" [dir=back]
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_"
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" -> "Function- _ZNSaIcEC2ERKS_" [dir=back]
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj176ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_"
+	"Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv"
+	"Function- _ZNSt6chrono15duration_valuesIxE4zeroEv" -> "Function- _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEC2IxvEERKT_" [dir=back]
+}

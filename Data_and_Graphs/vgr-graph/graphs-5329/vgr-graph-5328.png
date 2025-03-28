@@ -1,0 +1,103 @@
+digraph {
+	"Function- _ZSt4copyIPKcPcET0_T_S4_S3_"
+	"Function- _ZNSt20__uninitialized_copyILb1EE13__uninit_copyIPKcPcEET0_T_S6_S5_"
+	"Function- _ZNSt20__uninitialized_copyILb1EE13__uninit_copyIPKcPcEET0_T_S6_S5_" -> "Function- _ZSt4copyIPKcPcET0_T_S4_S3_" [dir=back]
+	"Function- _ZSt18uninitialized_copyIPKcPcET0_T_S4_S3_"
+	"Function- _ZSt18uninitialized_copyIPKcPcET0_T_S4_S3_" -> "Function- _ZNSt20__uninitialized_copyILb1EE13__uninit_copyIPKcPcEET0_T_S6_S5_" [dir=back]
+	"Function- _ZN3fmt2v58internal12make_checkedIcEEPT_S4_j"
+	"Function- _ZN3fmt2v58internal12make_checkedIcEEPT_S4_j" -> "Function- _ZSt18uninitialized_copyIPKcPcET0_T_S4_S3_" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" -> "Function- _ZN3fmt2v58internal12make_checkedIcEEPT_S4_j" [dir=back]
+	"Function- _ZN3fmt2v58internal11to_unsignedIiEENSt13make_unsignedIT_E4typeES4_"
+	"Function- _ZN3fmt2v58internal11to_unsignedIiEENSt13make_unsignedIT_E4typeES4_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE6appendIcEEvPKT_S7_"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE6appendIcEEvPKT_S7_" -> "Function- _ZN3fmt2v58internal11to_unsignedIiEENSt13make_unsignedIT_E4typeES4_" [dir=back]
+	"Function- _ZNK3fmt2v517basic_string_viewIcE4sizeEv"
+	"Function- _ZNK3fmt2v517basic_string_viewIcE4sizeEv" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE6appendIcEEvPKT_S7_" [dir=back]
+	"Function- _ZNK3fmt2v517basic_string_viewIcE4dataEv"
+	"Function- _ZNK3fmt2v517basic_string_viewIcE4dataEv" -> "Function- _ZNK3fmt2v517basic_string_viewIcE4sizeEv" [dir=back]
+	"Function- _ZN6spdlog7details10fmt_helper18append_string_viewILj500EEEvN3fmt2v517basic_string_viewIcEERNS4_19basic_memory_bufferIcXT_ESaIcEEE"
+	"Function- _ZN6spdlog7details10fmt_helper18append_string_viewILj500EEEvN3fmt2v517basic_string_viewIcEERNS4_19basic_memory_bufferIcXT_ESaIcEEE" -> "Function- _ZNK3fmt2v517basic_string_viewIcE4dataEv" [dir=back]
+	"Function- _ZNK6spdlog10source_loc5emptyEv"
+	"Function- _ZNK6spdlog10source_loc5emptyEv" -> "Function- _ZN6spdlog7details10fmt_helper18append_string_viewILj500EEEvN3fmt2v517basic_string_viewIcEERNS4_19basic_memory_bufferIcXT_ESaIcEEE" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" -> "Function- _ZNK6spdlog10source_loc5emptyEv" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" [dir=back]
+	"Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv"
+	"Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc" [dir=back]
+	"Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_"
+	"Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_" -> "Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv" [dir=back]
+	"Function- _ZSt13__copy_move_aILb0EPKcPcET1_T0_S4_S3_"
+	"Function- _ZSt13__copy_move_aILb0EPKcPcET1_T0_S4_S3_" -> "Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_" [dir=back]
+	"Function- _ZSt12__niter_baseIPcET_S1_"
+	"Function- _ZSt12__niter_baseIPcET_S1_" -> "Function- _ZSt13__copy_move_aILb0EPKcPcET1_T0_S4_S3_" [dir=back]
+	"Function- _ZSt12__niter_baseIPKcET_S2_"
+	"Function- _ZSt12__niter_baseIPKcET_S2_" -> "Function- _ZSt12__niter_baseIPcET_S1_" [dir=back]
+	"Function- _ZSt12__niter_baseIPKcET_S2_"
+	"Function- _ZSt12__niter_baseIPKcET_S2_" -> "Function- _ZSt12__niter_baseIPKcET_S2_" [dir=back]
+	"Function- _ZSt14__copy_move_a2ILb0EPKcPcET1_T0_S4_S3_"
+	"Function- _ZSt14__copy_move_a2ILb0EPKcPcET1_T0_S4_S3_" -> "Function- _ZSt12__niter_baseIPKcET_S2_" [dir=back]
+	"Function- _ZSt12__miter_baseIPKcET_S2_"
+	"Function- _ZSt12__miter_baseIPKcET_S2_" -> "Function- _ZSt14__copy_move_a2ILb0EPKcPcET1_T0_S4_S3_" [dir=back]
+	"Function- _ZSt12__miter_baseIPKcET_S2_"
+	"Function- _ZSt12__miter_baseIPKcET_S2_" -> "Function- _ZSt12__miter_baseIPKcET_S2_" [dir=back]
+	"Function- _ZSt4copyIPKcPcET0_T_S4_S3_"
+	"Function- _ZSt4copyIPKcPcET0_T_S4_S3_" -> "Function- _ZSt12__miter_baseIPKcET_S2_" [dir=back]
+	"Function- _ZNSt20__uninitialized_copyILb1EE13__uninit_copyIPKcPcEET0_T_S6_S5_"
+	"Function- _ZNSt20__uninitialized_copyILb1EE13__uninit_copyIPKcPcEET0_T_S6_S5_" -> "Function- _ZSt4copyIPKcPcET0_T_S4_S3_" [dir=back]
+	"Function- _ZSt18uninitialized_copyIPKcPcET0_T_S4_S3_"
+	"Function- _ZSt18uninitialized_copyIPKcPcET0_T_S4_S3_" -> "Function- _ZNSt20__uninitialized_copyILb1EE13__uninit_copyIPKcPcEET0_T_S6_S5_" [dir=back]
+	"Function- _ZN3fmt2v58internal12make_checkedIcEEPT_S4_j"
+	"Function- _ZN3fmt2v58internal12make_checkedIcEEPT_S4_j" -> "Function- _ZSt18uninitialized_copyIPKcPcET0_T_S4_S3_" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" -> "Function- _ZN3fmt2v58internal12make_checkedIcEEPT_S4_j" [dir=back]
+	"Function- _ZN3fmt2v58internal11to_unsignedIiEENSt13make_unsignedIT_E4typeES4_"
+	"Function- _ZN3fmt2v58internal11to_unsignedIiEENSt13make_unsignedIT_E4typeES4_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE6appendIcEEvPKT_S7_"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE6appendIcEEvPKT_S7_" -> "Function- _ZN3fmt2v58internal11to_unsignedIiEENSt13make_unsignedIT_E4typeES4_" [dir=back]
+	"Function- _ZNK3fmt2v517basic_string_viewIcE4sizeEv"
+	"Function- _ZNK3fmt2v517basic_string_viewIcE4sizeEv" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE6appendIcEEvPKT_S7_" [dir=back]
+	"Function- _ZNK3fmt2v517basic_string_viewIcE4dataEv"
+	"Function- _ZNK3fmt2v517basic_string_viewIcE4dataEv" -> "Function- _ZNK3fmt2v517basic_string_viewIcE4sizeEv" [dir=back]
+	"Function- _ZN6spdlog7details10fmt_helper18append_string_viewILj500EEEvN3fmt2v517basic_string_viewIcEERNS4_19basic_memory_bufferIcXT_ESaIcEEE"
+	"Function- _ZN6spdlog7details10fmt_helper18append_string_viewILj500EEEvN3fmt2v517basic_string_viewIcEERNS4_19basic_memory_bufferIcXT_ESaIcEEE" -> "Function- _ZNK3fmt2v517basic_string_viewIcE4dataEv" [dir=back]
+	"Function- _ZN6spdlog5level14to_string_viewENS0_10level_enumE"
+	"Function- _ZN6spdlog5level14to_string_viewENS0_10level_enumE" -> "Function- _ZN6spdlog7details10fmt_helper18append_string_viewILj500EEEvN3fmt2v517basic_string_viewIcEERNS4_19basic_memory_bufferIcXT_ESaIcEEE" [dir=back]
+	"Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv"
+	"Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv" -> "Function- _ZN6spdlog5level14to_string_viewENS0_10level_enumE" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" -> "Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE7reserveEj" [dir=back]
+	"Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_"
+	"Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE9push_backERKc" [dir=back]
+	"Function- _ZSt13__copy_move_aILb0EPKcPcET1_T0_S4_S3_"
+	"Function- _ZSt13__copy_move_aILb0EPKcPcET1_T0_S4_S3_" -> "Function- _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIcEEPT_PKS3_S6_S4_" [dir=back]
+	"Function- _ZSt12__niter_baseIPcET_S1_"
+	"Function- _ZSt12__niter_baseIPcET_S1_" -> "Function- _ZSt13__copy_move_aILb0EPKcPcET1_T0_S4_S3_" [dir=back]
+	"Function- _ZSt12__niter_baseIPKcET_S2_"
+	"Function- _ZSt12__niter_baseIPKcET_S2_" -> "Function- _ZSt12__niter_baseIPcET_S1_" [dir=back]
+	"Function- _ZSt12__niter_baseIPKcET_S2_"
+	"Function- _ZSt12__niter_baseIPKcET_S2_" -> "Function- _ZSt12__niter_baseIPKcET_S2_" [dir=back]
+	"Function- _ZSt14__copy_move_a2ILb0EPKcPcET1_T0_S4_S3_"
+	"Function- _ZSt14__copy_move_a2ILb0EPKcPcET1_T0_S4_S3_" -> "Function- _ZSt12__niter_baseIPKcET_S2_" [dir=back]
+	"Function- _ZSt12__miter_baseIPKcET_S2_"
+	"Function- _ZSt12__miter_baseIPKcET_S2_" -> "Function- _ZSt14__copy_move_a2ILb0EPKcPcET1_T0_S4_S3_" [dir=back]
+	"Function- _ZSt12__miter_baseIPKcET_S2_"
+	"Function- _ZSt12__miter_baseIPKcET_S2_" -> "Function- _ZSt12__miter_baseIPKcET_S2_" [dir=back]
+	"Function- _ZSt4copyIPKcPcET0_T_S4_S3_"
+	"Function- _ZSt4copyIPKcPcET0_T_S4_S3_" -> "Function- _ZSt12__miter_baseIPKcET_S2_" [dir=back]
+}

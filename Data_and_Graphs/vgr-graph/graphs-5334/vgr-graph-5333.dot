@@ -1,0 +1,103 @@
+digraph {
+	"Function- _ZN3fmt2v519basic_memory_bufferIcLj500ESaIcEEC2ERKS2_"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev"
+	"Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" -> "Function- _ZN3fmt2v519basic_memory_bufferIcLj500ESaIcEEC2ERKS2_" [dir=back]
+	"Function- _ZNSaIcEC2Ev"
+	"Function- _ZNSaIcEC2Ev" -> "Function- _ZN9__gnu_cxx13new_allocatorIcEC2Ev" [dir=back]
+	"Function- _ZN6spdlog5sinks15basic_file_sinkISt5mutexE8sink_it_ERKNS_7details7log_msgE"
+	"Function- _ZN6spdlog5sinks15basic_file_sinkISt5mutexE8sink_it_ERKNS_7details7log_msgE" -> "Function- _ZNSaIcEC2Ev" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN6spdlog5sinks15basic_file_sinkISt5mutexE8sink_it_ERKNS_7details7log_msgE" [dir=back]
+	"Function- _ZL20__gthread_mutex_lockP15pthread_mutex_t"
+	"Function- _ZL20__gthread_mutex_lockP15pthread_mutex_t" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt5mutex4lockEv"
+	"Function- _ZNSt5mutex4lockEv" -> "Function- _ZL20__gthread_mutex_lockP15pthread_mutex_t" [dir=back]
+	"Function- _ZNSt10lock_guardISt5mutexEC2ERS0_"
+	"Function- _ZNSt10lock_guardISt5mutexEC2ERS0_" -> "Function- _ZNSt5mutex4lockEv" [dir=back]
+	"Function- _ZN6spdlog5sinks9base_sinkISt5mutexE3logERKNS_7details7log_msgE"
+	"Function- _ZN6spdlog5sinks9base_sinkISt5mutexE3logERKNS_7details7log_msgE" -> "Function- _ZNSt10lock_guardISt5mutexEC2ERS0_" [dir=back]
+	"Function- _ZNKSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EE3getEv"
+	"Function- _ZNKSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EE3getEv" -> "Function- _ZN6spdlog5sinks9base_sinkISt5mutexE3logERKNS_7details7log_msgE" [dir=back]
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv"
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv" -> "Function- _ZNKSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EE3getEv" [dir=back]
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv"
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv" -> "Function- _ZNKSt19__shared_ptr_accessIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv" [dir=back]
+	"Function- _ZStanSt12memory_orderSt23__memory_order_modifier"
+	"Function- _ZStanSt12memory_orderSt23__memory_order_modifier" -> "Function- _ZNKSt19__shared_ptr_accessIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv" [dir=back]
+	"Function- _ZNKSt13__atomic_baseIiE4loadESt12memory_order"
+	"Function- _ZNKSt13__atomic_baseIiE4loadESt12memory_order" -> "Function- _ZStanSt12memory_orderSt23__memory_order_modifier" [dir=back]
+	"Function- _ZNK6spdlog5sinks4sink10should_logENS_5level10level_enumE"
+	"Function- _ZNK6spdlog5sinks4sink10should_logENS_5level10level_enumE" -> "Function- _ZNKSt13__atomic_baseIiE4loadESt12memory_order" [dir=back]
+	"Function- _ZNKSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EE3getEv"
+	"Function- _ZNKSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EE3getEv" -> "Function- _ZNK6spdlog5sinks4sink10should_logENS_5level10level_enumE" [dir=back]
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv"
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv" -> "Function- _ZNKSt12__shared_ptrIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2EE3getEv" [dir=back]
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv"
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv" -> "Function- _ZNKSt19__shared_ptr_accessIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv" [dir=back]
+	"Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEdeEv"
+	"Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEdeEv" -> "Function- _ZNKSt19__shared_ptr_accessIN6spdlog5sinks4sinkELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv" [dir=back]
+	"Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEE4baseEv"
+	"Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEE4baseEv" -> "Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEdeEv" [dir=back]
+	"Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEE4baseEv"
+	"Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEE4baseEv" -> "Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEE4baseEv" [dir=back]
+	"Function- _ZN9__gnu_cxxneIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEEbRKNS_17__normal_iteratorIT_T0_EESF_"
+	"Function- _ZN9__gnu_cxxneIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEEbRKNS_17__normal_iteratorIT_T0_EESF_" -> "Function- _ZNK9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEE4baseEv" [dir=back]
+	"Function- _ZN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEC2ERKS6_"
+	"Function- _ZN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEC2ERKS6_" -> "Function- _ZN9__gnu_cxxneIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEEbRKNS_17__normal_iteratorIT_T0_EESF_" [dir=back]
+	"Function- _ZNSt6vectorISt10shared_ptrIN6spdlog5sinks4sinkEESaIS4_EE3endEv"
+	"Function- _ZNSt6vectorISt10shared_ptrIN6spdlog5sinks4sinkEESaIS4_EE3endEv" -> "Function- _ZN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEC2ERKS6_" [dir=back]
+	"Function- _ZN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEC2ERKS6_"
+	"Function- _ZN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEC2ERKS6_" -> "Function- _ZNSt6vectorISt10shared_ptrIN6spdlog5sinks4sinkEESaIS4_EE3endEv" [dir=back]
+	"Function- _ZNSt6vectorISt10shared_ptrIN6spdlog5sinks4sinkEESaIS4_EE5beginEv"
+	"Function- _ZNSt6vectorISt10shared_ptrIN6spdlog5sinks4sinkEESaIS4_EE5beginEv" -> "Function- _ZN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN6spdlog5sinks4sinkEESt6vectorIS5_SaIS5_EEEC2ERKS6_" [dir=back]
+	"Function- _ZN6spdlog12async_logger12backend_log_ERKNS_7details7log_msgE"
+	"Function- _ZN6spdlog12async_logger12backend_log_ERKNS_7details7log_msgE" -> "Function- _ZNSt6vectorISt10shared_ptrIN6spdlog5sinks4sinkEESaIS4_EE5beginEv" [dir=back]
+	"Function- _ZNKSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EE3getEv"
+	"Function- _ZNKSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EE3getEv" -> "Function- _ZN6spdlog12async_logger12backend_log_ERKNS_7details7log_msgE" [dir=back]
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv"
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv" -> "Function- _ZNKSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EE3getEv" [dir=back]
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv"
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv" -> "Function- _ZNKSt19__shared_ptr_accessIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv" [dir=back]
+	"Function- _ZN6spdlog7details2os10_thread_idEv"
+	"Function- _ZN6spdlog7details2os10_thread_idEv" -> "Function- _ZNKSt19__shared_ptr_accessIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv" [dir=back]
+	"Function- _ZN6spdlog7details2os9thread_idEv"
+	"Function- _ZN6spdlog7details2os9thread_idEv" -> "Function- _ZN6spdlog7details2os10_thread_idEv" [dir=back]
+	"Function- _ZN6spdlog7details2os3nowEv"
+	"Function- _ZN6spdlog7details2os3nowEv" -> "Function- _ZN6spdlog7details2os9thread_idEv" [dir=back]
+	"Function- _ZN6spdlog7details7log_msgC2ENS_10source_locEPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_5level10level_enumEN3fmt2v517basic_string_viewIcEE"
+	"Function- _ZN6spdlog7details7log_msgC2ENS_10source_locEPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_5level10level_enumEN3fmt2v517basic_string_viewIcEE" -> "Function- _ZN6spdlog7details2os3nowEv" [dir=back]
+	"Function- _ZN6spdlog10source_locC2Ev"
+	"Function- _ZN6spdlog10source_locC2Ev" -> "Function- _ZN6spdlog7details7log_msgC2ENS_10source_locEPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_5level10level_enumEN3fmt2v517basic_string_viewIcEE" [dir=back]
+	"Function- _ZN6spdlog7details7log_msgC2EPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_5level10level_enumEN3fmt2v517basic_string_viewIcEE"
+	"Function- _ZN6spdlog7details7log_msgC2EPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_5level10level_enumEN3fmt2v517basic_string_viewIcEE" -> "Function- _ZN6spdlog10source_locC2Ev" [dir=back]
+	"Function- _ZN3fmt2v517basic_string_viewIcEC2EPKcj"
+	"Function- _ZN3fmt2v517basic_string_viewIcEC2EPKcj" -> "Function- _ZN6spdlog7details7log_msgC2EPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_5level10level_enumEN3fmt2v517basic_string_viewIcEE" [dir=back]
+	"Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv"
+	"Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv" -> "Function- _ZN3fmt2v517basic_string_viewIcEC2EPKcj" [dir=back]
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE4dataEv"
+	"Function- _ZN3fmt2v58internal12basic_bufferIcE4dataEv" -> "Function- _ZNK3fmt2v58internal12basic_bufferIcE4sizeEv" [dir=back]
+	"Function- _ZNK6spdlog6logger4nameB5cxx11Ev"
+	"Function- _ZNK6spdlog6logger4nameB5cxx11Ev" -> "Function- _ZN3fmt2v58internal12basic_bufferIcE4dataEv" [dir=back]
+	"Function- _ZNKSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EE3getEv"
+	"Function- _ZNKSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EE3getEv" -> "Function- _ZNK6spdlog6logger4nameB5cxx11Ev" [dir=back]
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv"
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv" -> "Function- _ZNKSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EE3getEv" [dir=back]
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv"
+	"Function- _ZNKSt19__shared_ptr_accessIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv" -> "Function- _ZNKSt19__shared_ptr_accessIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv" [dir=back]
+	"Function- _ZN6spdlog7details9async_msg10to_log_msgEv"
+	"Function- _ZN6spdlog7details9async_msg10to_log_msgEv" -> "Function- _ZNKSt19__shared_ptr_accessIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv" [dir=back]
+	"Function- _ZL18__gthread_active_pv"
+	"Function- _ZL18__gthread_active_pv" -> "Function- _ZN6spdlog7details9async_msg10to_log_msgEv" [dir=back]
+	"Function- _ZL22__gthread_mutex_unlockP15pthread_mutex_t"
+	"Function- _ZL22__gthread_mutex_unlockP15pthread_mutex_t" -> "Function- _ZL18__gthread_active_pv" [dir=back]
+	"Function- _ZNSt5mutex6unlockEv"
+	"Function- _ZNSt5mutex6unlockEv" -> "Function- _ZL22__gthread_mutex_unlockP15pthread_mutex_t" [dir=back]
+	"Function- _ZNSt11unique_lockISt5mutexE6unlockEv"
+	"Function- _ZNSt11unique_lockISt5mutexE6unlockEv" -> "Function- _ZNSt5mutex6unlockEv" [dir=back]
+	"Function- _ZNSt11unique_lockISt5mutexED2Ev"
+	"Function- _ZNSt11unique_lockISt5mutexED2Ev" -> "Function- _ZNSt11unique_lockISt5mutexE6unlockEv" [dir=back]
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev"
+	"Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev" -> "Function- _ZNSt11unique_lockISt5mutexED2Ev" [dir=back]
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev"
+	"Function- _ZNSt12__shared_ptrIN6spdlog12async_loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev" -> "Function- _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev" [dir=back]
+}
