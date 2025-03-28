@@ -1,4 +1,4 @@
-# icstracker
+# ICSTracker
 ICSTracker - desc
 
 ## Environment and Dependencies
