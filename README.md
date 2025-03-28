@@ -1,5 +1,5 @@
 # ICSTracker
-ICSTracker - desc
+ICSTracker - It recovers physical semantics, reconstructs data dependencies, and links controller operations to OS-level events. Then enables comprehensive provenance analysis in industrial control systems by detecting all attack activities.
 
 ## Environment and Dependencies
 ### Environment
@@ -60,5 +60,5 @@ Each sub-graphs contains 5k nodes.
 
 #### Graph Generation
 Please follow the instructions present in `3-steps/step_1_2/` and `3-steps/step_3` for noise reduction.
-The `graph_generation/generate_graph.py` will use updated traces from `3-steps/step_3/output/<updated trace>` after the reduction step.  
+The `graph_generation/generate_graph.py` will use updated traces from `3-steps/step_3/output/<updated trace>` after the reduction step to generate graph.
 
