@@ -1,0 +1,1318 @@
+digraph {
+	"loaded values- 19"
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091561810"
+	"loaded values- 1091561810" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091561810" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091551128"
+	"loaded values- 1091551128" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091551128" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091540099"
+	"loaded values- 1091540099" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091540099" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091529412"
+	"loaded values- 1091529412" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091529412" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091518714"
+	"loaded values- 1091518714" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091518714" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091508021"
+	"loaded values- 1091508021" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091508021" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091497138"
+	"loaded values- 1091497138" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091497138" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091486428"
+	"loaded values- 1091486428" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091486428" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091475732"
+	"loaded values- 1091475732" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091475732" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091464752"
+	"loaded values- 1091464752" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091464752" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091454052"
+	"loaded values- 1091454052" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091454052" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091443358"
+	"loaded values- 1091443358" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091443358" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091432628"
+	"loaded values- 1091432628" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091432628" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091421642"
+	"loaded values- 1091421642" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091421642" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091410962"
+	"loaded values- 1091410962" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091410962" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091400263"
+	"loaded values- 1091400263" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091400263" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091389354"
+	"loaded values- 1091389354" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091389354" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091378415"
+	"loaded values- 1091378415" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091378415" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091367716"
+	"loaded values- 1091367716" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091367716" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091357020"
+	"loaded values- 1091357020" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091357020" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091345938"
+	"loaded values- 1091345938" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091345938" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091335157"
+	"loaded values- 1091335157" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091335157" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091324328"
+	"loaded values- 1091324328" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091324328" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091313553"
+	"loaded values- 1091313553" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091313553" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091302448"
+	"loaded values- 1091302448" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091302448" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091291719"
+	"loaded values- 1091291719" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091291719" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091281025"
+	"loaded values- 1091281025" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091281025" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091270047"
+	"loaded values- 1091270047" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091270047" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091259348"
+	"loaded values- 1091259348" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091259348" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091248653"
+	"loaded values- 1091248653" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091248653" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091237972"
+	"loaded values- 1091237972" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091237972" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091227061"
+	"loaded values- 1091227061" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091227061" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091216383"
+	"loaded values- 1091216383" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091216383" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091205724"
+	"loaded values- 1091205724" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091205724" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091194908"
+	"loaded values- 1091194908" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091194908" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+"
+	"FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 4"
+	"loaded values- 4" -> "FFF Function- _ZN2ft7TxtAxis15isSwitchPressedEh
+arguments-   , %\"class.ft--TxtAxis\"* %this
+arg_values- -1090522320 ,4
+" [dir=back]
+	"loaded values- 19"
+	"loaded values- 19" -> "loaded values- 4" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 19" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 18"
+	"loaded values- 18" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 18" [dir=back]
+	"loaded values- -1090521896"
+	"loaded values- -1090521896" -> "loaded values- -1246676664" [dir=back]
+	"loaded values- 1091184015"
+	"loaded values- 1091184015" -> "loaded values- -1090521896" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "loaded values- 1091184015" [dir=back]
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0"
+	"Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" -> "loaded values- 0" [dir=back]
+	"loaded values- 0"
+	"loaded values- 0" -> "Called from- _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt _ZN2ft7TxtAxis15isSwitchPressedEh callInst_values- 0" [dir=back]
+	"loaded values- -1246676664"
+	"loaded values- -1246676664" -> "loaded values- 0" [dir=back]
+}
